@@ -1,1 +1,109 @@
 [2024-01-21 23:01:47,751:INFO:main:welcome to mlproject]
+[2024-02-13 17:47:19,883:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-02-13 17:47:19,886:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-02-13 17:48:30,129:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-02-13 17:48:30,136:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-02-13 17:48:30,140:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-02-13 17:48:30,142:INFO:common:created directory at: artifacts]
+[2024-02-13 17:48:30,144:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-02-13 17:48:50,770:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-02-13 17:48:50,776:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-02-13 17:48:50,781:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-02-13 17:48:50,783:INFO:common:created directory at: artifacts]
+[2024-02-13 17:48:50,784:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-02-13 17:48:52,577:INFO:2865788197:artifacts/data_ingestion/data.zip download ! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E476:10B4:51F7:6686:65CB5E31
+Accept-Ranges: bytes
+Date: Tue, 13 Feb 2024 12:18:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707826738.852347,VS0,VE302
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9b96cc0c95916c69a30bdc7c2ab47368e3386cf8
+Expires: Tue, 13 Feb 2024 12:23:58 GMT
+Source-Age: 0
+
+]
+[2024-02-13 19:47:36,819:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-02-13 19:47:36,829:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-02-13 19:47:36,840:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-02-13 19:47:36,842:INFO:common:created directory at: artifacts]
+[2024-02-13 19:47:37,175:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-02-13 19:47:38,814:INFO:2865788197:artifacts/data_ingestion/data.zip download ! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C986:667F:1269D6:15D939:65CB7A07
+Accept-Ranges: bytes
+Date: Tue, 13 Feb 2024 14:17:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10224-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707833864.354282,VS0,VE306
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b0492f7d2d4c4491616135909cd115d21358981f
+Expires: Tue, 13 Feb 2024 14:22:44 GMT
+Source-Age: 0
+
+]
+[2024-02-13 23:28:02,092:INFO:main:welcome to mlproject]
+[2024-02-13 23:28:02,093:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-13 23:28:02,094:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-02-13 23:28:02,095:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-02-13 23:28:02,097:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-02-13 23:28:02,098:INFO:common:created directory at: artifacts]
+[2024-02-13 23:28:02,197:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-02-13 23:28:04,109:INFO:data_ingestion:artifacts/data_ingestion/data.zip download ! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5DB6:01ED:AFB2B:C4275:65CBADAA
+Accept-Ranges: bytes
+Date: Tue, 13 Feb 2024 17:58:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10245-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707847084.523305,VS0,VE543
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 645bd9a4b4052e6c18f14f74352b6cc658f9a2cd
+Expires: Tue, 13 Feb 2024 18:03:04 GMT
+Source-Age: 0
+
+]
+[2024-02-13 23:28:04,174:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
