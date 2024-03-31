@@ -213,3 +213,55 @@ bdb.BdbQuit
 [2024-03-31 14:46:58,781:INFO:stage_03_data_transformation:>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<< 
 
  x===================x]
+[2024-03-31 15:19:47,026:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-03-31 15:21:04,273:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:21:04,275:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:21:04,278:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:21:04,280:INFO:common:created directory at: artifacts]
+[2024-03-31 15:22:29,523:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:22:29,526:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:22:29,529:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:22:29,531:INFO:common:created directory at: artifacts]
+[2024-03-31 15:22:29,655:INFO:common:created directory at: artifacts/model_trainer]
+[2024-03-31 15:32:45,083:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-03-31 15:32:47,501:INFO:main:welcome to mlproject]
+[2024-03-31 15:32:47,501:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-31 15:32:47,508:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:32:47,508:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:32:47,510:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:32:47,511:INFO:common:created directory at: artifacts]
+[2024-03-31 15:32:47,511:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-03-31 15:32:47,512:INFO:data_ingestion:file already exist of size :~ 23 KB]
+[2024-03-31 15:32:47,535:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-31 15:32:47,536:INFO:main:>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<]
+[2024-03-31 15:32:47,539:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:32:47,541:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:32:47,543:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:32:47,544:INFO:common:created directory at: artifacts]
+[2024-03-31 15:32:47,545:INFO:common:created directory at: artifacts/data_validation]
+[2024-03-31 15:32:47,569:INFO:main:>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<< 
+
+ x===================x]
+[2024-03-31 15:32:47,569:INFO:main:>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<]
+[2024-03-31 15:32:47,575:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:32:47,577:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:32:47,579:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:32:47,581:INFO:common:created directory at: artifacts]
+[2024-03-31 15:32:47,582:INFO:common:created directory at: artifacts/data_transformation]
+[2024-03-31 15:32:47,610:INFO:data_transformation:train and test splitted]
+[2024-03-31 15:32:47,611:INFO:data_transformation:(1199, 12)]
+[2024-03-31 15:32:47,612:INFO:data_transformation:(400, 12)]
+[2024-03-31 15:32:47,613:INFO:main:>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<< 
+
+ x===================x]
+[2024-03-31 15:32:47,614:INFO:main:>>>>>>>>>>> stage Model Trainer started <<<<<<<<<<<]
+[2024-03-31 15:32:47,616:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2024-03-31 15:32:47,617:INFO:common:yaml file:params.yaml loaded successfully]
+[2024-03-31 15:32:47,618:INFO:common:yaml file:schema.yaml loaded successfully]
+[2024-03-31 15:32:47,619:INFO:common:created directory at: artifacts]
+[2024-03-31 15:32:47,620:INFO:common:created directory at: artifacts/model_trainer]
+[2024-03-31 15:32:47,659:INFO:main:>>>>>>>>>>> stage Model Trainer completed <<<<<<<<<<< 
+
+ x===================x]
